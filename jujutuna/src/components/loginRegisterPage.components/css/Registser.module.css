@@ -1,0 +1,251 @@
+.registerContainer{
+   width: 100%;
+   margin-top: 70px;
+}
+
+.titleLink{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 300px; 
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.registerInputContainerNo1{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.duplicationContainer{
+    display: flex;
+    flex-flow: row;
+}
+.registerInputContainerNo2{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.registerInputContainerNo3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.registerInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+}
+
+.registerIdInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.duplocationText{
+    font-size: 14px;
+}
+
+.registerPasswdInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.registerNickInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+}
+
+.registerNameInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.registerBirthdayInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.addressInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.addressParticularInput{
+    width: 380px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.phoneInput{
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.newsAgencyContainer{
+    border: 1px solid rgb(201, 200, 200);
+    height: 53px;
+    margin-right: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.addressContainer{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.findAddress{
+    width: 135px;
+    border: 1px solid rgb(201, 200, 200);
+    height: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.AddressContainer{
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.selectContainer{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 5px;
+}
+
+.genderContainer{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.genderMButton{
+    width: 90px;
+    border: 1px solid rgb(201, 200, 200);
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nationalityContainer{
+    margin-top: 10px;
+    
+}
+
+.genderWButton{
+    width: 90px;
+    border: 1px solid rgb(201, 200, 200);
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nationalityLButton{
+    width: 90px;
+    border: 1px solid rgb(201, 200, 200);
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nationalityFButton{
+    width: 90px;
+    border: 1px solid rgb(201, 200, 200);
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.insertButton{
+    width: 405px;
+    height: 50px;
+    background-color: blue;
+    font-size: 18px;
+    border: 1px solid rgb(3, 3, 151);
+    border-radius: 7px;
+    color: white;
+}
+
+.inputWithMessageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.messageContainer {
+    margin-right: 10px;
+}
+
+.errorText {
+    color: red;
+    font-size: 14px;
+}
+
+.successText {
+    color: blue;
+    font-size: 14px;
+}
+
+.checkingText {
+    color: gray;
+    font-size: 14px;
+}
